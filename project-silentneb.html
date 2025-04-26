@@ -22,6 +22,7 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
@@ -35,7 +36,7 @@
   ======================================================== -->
   </head>
 
-  <body class="portfolio-page">
+  <body class="portfolio-details-page">
     <header id="header" class="header d-flex align-items-center light-background sticky-top">
       <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
@@ -50,8 +51,8 @@
             <li><a href="about.html">關於我</a></li>
             <li><a href="resume.html">履歷</a></li>
             <li><a href="skill.html">專長技能</a></li>
-            <li><a href="portfolio.html">專案</a></li>
-            <li><a href="portfolio.html" class="active">興趣專長</a></li>
+            <li><a href="portfolio.html" class="active">專案</a></li>
+            <li><a href="interest.html">興趣專長</a></li>
             <li class="dropdown">
               <a href="#">
                 <span>一些生活</span>
@@ -92,42 +93,67 @@
     </header>
 
     <main class="main">
-      <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section">
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
+          <h2>霧化器開發專案-silentneb 霧化器</h2>
           <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div>
         <!-- End Section Title -->
 
-        <div class="container">
-          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Card</li>
-              <li data-filter=".filter-branding">Web</li>
-            </ul>
-            <!-- End Portfolio Filters -->
-
-            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="" />
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit</p>
-                  <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/project/microbase/SN1.jpg" alt="" />
+                  </div>
                 </div>
+                <div class="swiper-pagination"></div>
               </div>
-              <!-- End Portfolio Item -->
             </div>
-            <!-- End Portfolio Container -->
+
+            <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>霧化器開發專案-silentneb 霧化器</h3>
+                <ul>
+                  <li>
+                    <strong>專案時間</strong>
+                    2022/4~2024/3
+                  </li>
+                  <li>
+                    <strong>專案地點</strong>
+                    <a href="https://maps.app.goo.gl/tVcQ7wgZ5mkGGSFDA" target="_blank" rel="noopener noreferrer">微邦科技</a>
+                  </li>
+                  <li>
+                    <strong>專案單位</strong>
+                    <a href="https://microbasetech.com/" target="_blank" rel="noopener noreferrer">微邦科技</a>
+                  </li>
+                  <li class="d-none">
+                    <strong>得獎連結</strong>
+                    <a href="https://www.taiwanexcellence.org/tw/award/product/1130313" target="_blank" rel="noopener noreferrer">樂友康</a>
+                  </li>
+                  <li>
+                    <strong>產品影片</strong>
+                    :
+                    <a href="https://www.youtube.com/@microbasetech" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-solid fa-hand-point-right"></i>
+                      點我看影片
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <h2>技能</h2>
+                <p>可靠度試驗設計、執行及報告撰寫 (ASTM、ISO、IEC)</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- /Portfolio Section -->
+      <!-- /Portfolio Details Section -->
     </main>
 
     <footer id="footer" class="footer light-background">
