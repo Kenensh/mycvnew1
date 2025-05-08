@@ -22,6 +22,7 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
@@ -46,14 +47,15 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">關於我</a></li>
+            <li><a href="resume.html">履歷</a></li>
+            <li><a href="skill.html">專長技能</a></li>
+            <li><a href="portfolio.html" class="active">專案</a></li>
+            <li><a href="interest.html">興趣專長</a></li>
             <li class="dropdown">
               <a href="#">
-                <span>Dropdown</span>
+                <span>一些生活</span>
                 <i class="bi bi-chevron-down toggle-dropdown"></i>
               </a>
               <ul>
@@ -76,7 +78,7 @@
                 <li><a href="#">Dropdown 4</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">聯繫我</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -95,8 +97,8 @@
       <section id="portfolio-details" class="portfolio-details section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio Details</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          <h2>資展大專專題作品上架雲端 - GuruLaptop</h2>
+          <p class="d-none">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div>
         <!-- End Section Title -->
 
@@ -104,37 +106,11 @@
           <div class="row gy-4">
             <div class="col-lg-8">
               <div class="portfolio-details-slider swiper init-swiper">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 5000
-                    },
-                    "slidesPerView": "auto",
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    }
-                  }
-                </script>
-
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/app-1.jpg" alt="" />
-                  </div>
-
-                  <div class="swiper-slide">
-                    <img src="assets/img/portfolio/product-1.jpg" alt="" />
-                  </div>
-
-                  <div class="swiper-slide">
-                    <img src="assets/img/portfolio/branding-1.jpg" alt="" />
-                  </div>
-
-                  <div class="swiper-slide">
-                    <img src="assets/img/portfolio/books-1.jpg" alt="" />
+                    <a href="https://gurulaptop-ckeditor-frontend.onrender.com">
+                      <img src="assets/img/project/gurulaptop.avif" alt="" />
+                    </a>
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -143,30 +119,27 @@
 
             <div class="col-lg-4">
               <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-                <h3>Project information</h3>
+                <h3>資展大專專題作品上架雲端 - GuruLaptop</h3>
                 <ul>
                   <li>
-                    <strong>Category</strong>
-                    : Web design
+                    <strong>課程時間</strong>
+                    2024/6~仍在進行
                   </li>
+
                   <li>
-                    <strong>Client</strong>
-                    : ASU Company
-                  </li>
-                  <li>
-                    <strong>Project date</strong>
-                    : 01 March, 2020
-                  </li>
-                  <li>
-                    <strong>Project URL</strong>
+                    <strong>連結</strong>
                     :
-                    <a href="#">www.example.com</a>
+                    <a href="https://gurulaptop-ckeditor-frontend.onrender.com" target="_blank" rel="noopener noreferrer">
+                      <i class="fa-solid fa-hand-point-right"></i>
+                      點我看網站 (需要啟動休眠30-120秒)
+                    </a>
                   </li>
                 </ul>
               </div>
               <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-                <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-                <p>Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.</p>
+                <h2>技能</h2>
+                <p>網頁技術</p>
+                <p>前端技術</p>
               </div>
             </div>
           </div>
